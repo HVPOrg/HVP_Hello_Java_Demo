@@ -42,4 +42,5 @@ jobs:
           polaris_reports_sarif_create: 'true'
           polaris_upload_sarif_report: 'true' 
           polaris_prComment_enabled: 'true'
+          polaris_prComment_severities: "Critical, High, Medium, Low"
           github_token: ${{ secrets.GITHUB_TOKEN }}
